@@ -21,7 +21,7 @@
       <mysql enabled="yes">
         <host>localhost</host>
         <username>root</username>
-        <password>katana</password>
+        <password>linuxisthebest</password>
         <database>shingomedia</database>
       </mysql>
     </storage>
