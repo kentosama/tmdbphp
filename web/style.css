@@ -1,0 +1,191 @@
+body {
+	background-color: #222222;
+}
+
+* {
+	font-family: 'Allerta', cursive;
+	font-size: 13px;
+}
+
+@font-face {
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allerta'), local('Allerta-Regular'), url(Allerta-Regular.ttf) format('woff');
+}
+
+h3.movie-title {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	padding:0px;
+	
+}
+
+p {
+	margin-bottom : 5px;
+	margin-top: 0px;
+}
+
+div.wrapper {
+	width: 920px;
+	margin-left : auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: block;
+	
+}
+
+div.header {
+	height: 80px;
+	background-color : #333333;
+	color: white;
+	padding: 10px;
+}
+
+h1.title {
+	font-size : 36px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.wrapper-content {
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0px 0px 5px black;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+
+div.wrapper-left-content {
+	padding: 10px;
+	margin: 20px;
+	background-color: #F2F2F2;
+	border: 1px solid #DDDDDD;
+	float: left;
+	position: relative;
+	width: 60%;
+	word-break:break-all;
+}
+
+div.wrapper-right-content {
+	margin-top: 20px;
+	margin-left: 5px;
+	background-color: #F2F2F2;
+	border: 1px solid #DDDDDD;
+	float: left;
+	position: relative;
+	width: 31%;
+}
+
+div.movie {
+	background-color: white;
+	padding: 10px;
+	border-radius : 5px;
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+
+div.result-movies {
+	background-color: #222222;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	clear: both;
+	border-radius : 5px;
+	box-shadow: 0px 0px 5px black;
+	margin-top: 10px;
+	padding: 5px;
+	display: none;
+	overflow: auto;
+	max-height: 160px;
+	
+	
+}
+
+div.poster-xml {
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	box-shadow: 0px 0px 5px black;
+	width : 200px;
+}
+
+div.movie-information {
+	float: left;
+	position: relative;
+}
+
+div.result-poster {
+	float: left;
+	position: relative;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+div.status {
+	left: 50%;
+	margin-left: -200px;
+	min-height: 30px;
+	max-height: 40px; 
+	width: 30%;
+	background-color: #F2F2F2;
+	border-left: 2px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+	border-top: 2px solid #CCCCCC;
+	bottom: 0px;
+	position: fixed;
+	box-shadow: 0px 0px 5px black;
+	border-radius: 3px;
+	display: none;
+	padding: 10px;
+	
+	overflow: auto;
+}
+
+div.result-wrapper {
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #086A87;
+}
+
+a.set-meta {
+	color: white;
+}
+
+span.format {
+	font-size: 11px;
+	color: #333333;
+}
+
+span.subtitle {
+	margin-left: 5px;
+}
+
+p.total-movies {
+	font-size: 11px;
+	color: #333333;
+	border-bottom: 1px dotted #DDDDDD;
+	text-align: right;
+	
+}
+
+input.movie-title {
+	border: none;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 5px;
+}
