@@ -245,12 +245,11 @@ function ajax_get_tmdb_config() {
 	$config = get_tmbd_configuration();
 	echo json_encode($config);
 }
-
+$action = '';
 $action = $_POST['action'];
-if($action) {
+if($action != '') {
 	$function = 'ajax_'.$action;
 	$function();
 }
-
 
 ?>
